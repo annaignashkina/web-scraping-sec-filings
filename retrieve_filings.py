@@ -6,15 +6,15 @@ from bs4 import BeautifulSoup as bf
 import re
 import time
 
-# sethow many columns you want to display in pandas
+# set how many columns/rows you want to display in pandas
 pd.set_option('display.max_columns', 50)
 pd.set_option('display.max_rows', 100)
 
 # Directory to store filings
-dir = 'C:\\Users\\Anna\\'
+dir = 'put ur dir here'
 
 # set the working directory here
-folder0 = 'C:\\Users\\Anna\\'
+folder0 = 'put ur dir here'
 os.chdir(folder0)
 
 
